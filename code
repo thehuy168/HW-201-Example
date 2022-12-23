@@ -1,9 +1,9 @@
 int val = 0 ; 
-int ledPin = 13; //D7
+int ledPin = 13;  // Led Pin Connected To D5 Pin    
  void setup()  
  {  
    Serial.begin(9600); // sensor buart rate  
-    // Led Pin Connected To D5 Pin    
+   
    pinMode(ledPin,OUTPUT);
    digitalWrite(ledPin,LOW);
 
