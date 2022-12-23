@@ -1,5 +1,5 @@
 int val = 0 ; 
-int ledPin = 13;  // Led Pin Connected To D5 Pin    
+int ledPin = 13;  // Led Pin Connected To D7 Pin    
  void setup()  
  {  
    Serial.begin(9600); // sensor buart rate  
